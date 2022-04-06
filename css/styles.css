@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90vw;
+    font-family: 'Karla', sans-serif;
+    margin: auto;
+    background-color:  #f0f3f4 ;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 3em;
+    background-color: #F4F6F7;
+}
+
+.nombre {
+    display: flex;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar a {
+    padding: 0 5px;
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    font-size: 18px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: #F7F9F9;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #212F3C;
+    padding: 20px;
+    /* margin: 1em; */
+}   
+
+.presentacion h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #515A5A;
+}
+
+.presentacion h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #616A6B;
+    /* padding-top: 5px; */
+}
+
+.social-media {
+    display: flex;
+    justify-content: baseline;
+}
+
+.social-media a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #212121;
+    /* padding: 15px 25px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    height: 22px;
+    width: 20px;
+    margin: 0 20px 0 5px;
+}
+
+.img-personal {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+}
+
+.img-personal img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin: auto;
+}
+
