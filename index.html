@@ -6,231 +6,226 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio José Guaymas</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap" rel="stylesheet">
-
-    <!-- <link rel="stylesheet" href="/css/styles.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-
 </head>
-<body>
-    <section class="nav justify-content-between contenedor">
-        <a class="nav-item"> <img src="./assets/iconos/arg-programa-logo.png"></a>
-        <!-- <img id="hamburguer hidden" src="./assets/iconos/hamgurguer.svg" alt=""> -->
-        <div class="nav justify-content-end align-items-baseline">
-           <!-- <img id="close hidden" class="" src="./assets/iconos/close.svg" onclick="closeMenu"> -->
-            <a class="nav-item" href="#inicio">Github</a>
-            <a class="nav-item" href="#skills">Linkedin</a>
-            <button class="nav-item btn btn-dark" href="#contacto">Login</button>
+<body class="mx-1">
+    <section class="nav justify-content-md-between align-items-md-center mx-1">
+        <picture class="nav-item image-fluid">
+            <a class=""> <img src="./assets/iconos/arg-programa-logo.png"></a>
+        </picture>
+        <div class="nav-item justify-content-end align-items-baseline">
+            <a class="list-inline-item text-decoration-none btn text-dark font-weight-bolder" href="https://github.com/joseGuaymas">Github</a>
+            <a class="list-inline-item text-decoration-none btn text-dark font-weight-bolder" href="https://www.linkedin.com/in/jose-guaymas/">Linkedin</a>
+            <button class="list-inline-item btn btn-dark" href="#">Login</button>
         </div>
     </section>
     
-    <section class="d-flex contenedor flex-column bd-highlight mb-2">
-        <div class="">
-            <img class="rounded-circle mx-auto d-block card-img-top"src="" alt="">            
+    <section class="d-flex flex-column bd-highlight mt-4 mb-5 mx-5">
+        <div class="m-5">
+            <div class="rounded-circle mx-auto d-block card-img-top"></div>            
             <div class="card-body text-center">
-                <h2 class="card-title">José Guaymas Rojas</h2>
-                <h3 class="card-text">Desarrollador Web Full Stack Jr.</h3>
+                <h2 class="h2 m-3 card-title">José Guaymas Rojas</h2>
+                <h3 class="h3 m-3 card-text">Desarrollador Web Full Stack Jr.</h3>
             </div>
         </div>
         
-        <div class="d-flex bd-highlight">
-            <div class="p-2 w-100 bd-highlight">
-                <h2>Sobre mí</h2>
+        <div class="d-flex bd-highlight m-3">
+            <div class="p-2 w-100 bd-highlight m-2">
+                <h2 class="h3">Sobre mí</h2>
                 <p class="col-sm-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim eum, accusamus quia saepe asperiores ea veritatis molestiae voluptate, eaque in, qui quo aperiam aliquam reiciendis deleniti dolorum quod. Sequi, eaque?</p>
             </div>
             <div class="align-self-center p-2 flex-shrink-1 bd-highlight">
-                <button class="btn btn-dark">Descargar CV</button>
+                <button class="m-3 btn btn-dark">Descargar CV</button>
             </div>
         </div>
-
     </section>
     
-    <section class="contenedor card" id="formacion">
-        <h2 class="text-center">Formación</h2>
+    <section class="mx-5">
+        <h2 class="h2 text-center">Experiencia</h2>
 
-        <div class="formacion list-group list-group-flush">
-            <div class="certificado list-group-item">
-                <!-- <img src="./assets//Educacion IT logo.png" alt=""> -->
-                <h4 class="list-inline-item">SQL Developer</h4>
-                <p class="list-inline-item">Junio - Agosto 2021</p>
+        <div class="list-group list-group-flush m-5">
+            <div class="list-group-item card">
+                <h4 class="list-inline-item">Cooperativa Obrera</h4>
+                <h5 class="list-inline-item">Auxiliar - Cajero</h5>
+                <p class="list-inline-item">Septiembre 2014 - Actualidad</p>
             </div>
-            <div class="certificado list-group-item">
-                <img src="./assets/utnba-logo.jpg" alt="">
-                <h4 class="list-inline-item">Desarrollo Web Full Stack</h4>
-                <p class="list-inline-item">Septiembre/Diciembre 2021</p>
+            <div class="list-group-item">
+                <h4 class="list-inline-item">Supermercados Oasis</h4>
+                <h5 class="list-inline-item">Repositor - Cajero</h5>
+                <p class="list-inline-item">Agosto 2013 - Agosto 2014</p>
             </div>
-            <div class="certificado list-group-item">
-                <img src="./assets//Educacion IT logo.png" alt="">
-                <h4 class="list-inline-item">Python para no desarrolladores </h4>
-                <p class="list-inline-item">Septiembre 2021 - Febrero 2022</p>
+            <div class="list-group-item">
+                <h4 class="list-inline-item">Mundi Indumentaria</h4>
+                <h5 class="list-inline-item">Emprendimiento propio</h5>
+                <p class="list-inline-item">Junio 2010 - Agosto 2013</p>
             </div>         
-            <div class="certificado list-group-item">
-                <img src="./assets//Educacion IT logo.png" alt="">
+    </section>
+
+    <section class="mx-5">
+        <h2 class="h2 text-center">Formación</h2>
+
+        <div class="list-group list-group-flush flex-column-reverse m-5">
+            <div class="list-group-item card">
+                <h4 class="list-inline-item">Bachiller en Ciencias Sociales</h4>
+                <h5 class="list-inline-item">Instituo Monseñor Scalabrini</h5>
+                <p class="list-inline-item">Marzo 2005 - Diciembre 2007</p>
+            </div>
+            <div class="list-group-item card">
+                <h4 class="list-inline-item">Tecnicatura Superior en Periodismo Deportivo</h4>
+                <h5 class="list-inline-item">Instituto Regional del Sur</h5>
+                <p class="list-inline-item">Febrero 2008 - Mayo 2010</p>
+            </div>
+            <div class="list-group-item card">
+                <h4 class="list-inline-item">SQL Developer</h4>
+                <h5 class="list-inline-item">Educación IT</h5>
+                <p class="list-inline-item">Agosto 2021</p>
+            </div>
+            <div class="list-group-item">
+                <h4 class="list-inline-item">Desarrollo Web Full Stack</h4>
+                <h5 class="list-inline-item">UTN BA</h5>
+                <p class="list-inline-item">Diciembre 2021</p>
+            </div>
+            <div class="list-group-item">
+                <h4 class="list-inline-item">Python para no desarrolladores </h4>
+                <h5 class="list-inline-item">Educación IT</h5>
+                <p class="list-inline-item">Febrero 2022</p>
+            </div>         
+            <div class="list-group-item">
                 <h4 class="list-inline-item">Python Programming</h4>
+                <h5 class="list-inline-item">Educación IT</h5>
                 <p class="list-inline-item">Febrero 2022</p>
             </div>
-            <div class="certificado list-group-item">
-                <img src="./assets/utnba-logo.jpg" alt="">
+            <div class="list-group-item">
                 <h4 class="list-inline-item">Teletrabajo</h4>
+                <h5 class="list-inline-item">UTN BA</h5>
                 <p class="list-inline-item">Septiembre 2021</p>
             </div>
-            <div class="certificado list-group-item">
-                <img src="./assets//Educacion IT logo.png" alt="">
+            <div class="list-group-item">
                 <h4 class="list-inline-item">Programación Orientada a Objetos</h4>
+                <h5 class="list-inline-item">Educación IT</h5>
                 <p class="list-inline-item">Marzo 2022</p>
             </div>
-            <div class="certificado list-group-item">
-                <img src="./assets//Educacion IT logo.png" alt="">
+            <div class="list-group-item">
                 <h4 class="list-inline-item">Git Desarrollo Colaborativo</h4>
+                <h5 class="list-inline-item">Educación IT</h5>
                 <p class="list-inline-item">Abril 2022</p>
             </div>
-            <!-- <div class="certificado">
-                <img src="./assets/alura-latam-logo.jpg" alt="">
-                <h4>Oracle next Education</h4>
-                <p>En curso</p>
-            </div> -->
         </div>
-    
     </section>
-    <!-- <section class="about">
-    </section> -->
-
-    <section id="skills" class="contenedor">
-        <div class="text-center">
+    
+    <section class="m-3">
+        <div class="h2 text-center">
             <h2>Skills</h2>
         </div>
 
-        <div class="card-group justify-content-center">
-            <div class="card skill text-center">
-                <img class="card-img-top" src=".//assets/iconos/html_original_wordmark_logo_icon_146478.svg" alt="">
+        <div class="card-group justify-content-center align-items-center m-3">
+            <div class="card text-center m-2">
                 <div class="card-body">
                     <p class="card-text">HTML 5</p>
+                    <div class="progress">
+                        <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                 </div>
             </div>
-            <div class="card skill text-center">
-                <img class="card-img-top" src="./assets/iconos/javascript_icon_130900.svg" alt="">
+            <div class="card text-center m-2">
                 <div class="card-body">
                     <p class="card-text">JavaScript</p>
+                    <div class="progress">
+                        <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                 </div>
             </div>
-            <div class="card skill text-center">
-                <img class="card-img-top" src="/assets/iconos/file_sql_format_type_icon_134681.svg" alt="">
+            <div class="card text-center m-2">
                 <div class="card-body">
-                    <p class="card-text">SQL</p>
+                    <p class="card-text">BBDD SQL</p>
+                    <div class="progress">
+                        <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                 </div>
             </div>
-            <div class="card skill text-center">
-                <img class="card-img-top" src="./assets/iconos/python_18894.png" alt="">
+            <div class="card text-center m-2">
                 <div class="card-body">
                     <p class="card-text">Python</p>
+                    <div class="progress">
+                        <div class="progress-bar w-25" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                 </div>
             </div>
-            <div class="card skill text-center">
-                <img class="card-img-top" src="./assets/iconos/node_icon_196185.svg" alt="">
+            <div class="card text-center m-2">
                 <div class="card-body">
                     <p class="card-text">Node.js</p>
+                    <div class="progress">
+                        <div class="progress-bar w-25" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                 </div>
             </div>
-            <div class="card skill text-center">
-                <img class="card-img-top" src="/assets/iconos/css_original_wordmark_logo_icon_146576.svg" alt="">
+            <div class="card text-center m-2">
                 <div class="card-body">
-                    <p class="card-text">CSS</p>
+                    <p class="card-text">CSS 3</p>
+                    <div class="progress">
+                        <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                 </div>
             </div>
         </div>            
     </section>
 
-    <section class="justify-content-space-around contenedor" id="">
+    <section class="justify-content-space-around contenedor mt-5" id="">
         <div class="text-center">
-            <h2>Proyectos</h2>
+            <h2 class="h2">Proyectos</h2>
         </div>
         
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card">
-                <img src="/assets/capturas-proyectos/encriptador-de-texto.png" alt="vista previa encriptador">
-                <div class="card-body">
-                    <h5 class="card-title">Encriptador de texto</h5>
-                    <p class="card-text">HTML, CSS Y JavaScript.</p>
-                    <div class="justify-content-around">
-                        <a class="btn btn-dark" id="repositiorio-encriptador" href="https://github.com/joseGuaymas/encriptador_de_texto.git/" target="_blank" class="btn-repositorio">Repositorio</a>                    
-                        <a class="btn btn-dark" id="demo-encriptador" href="https://joseguaymas.github.io/encriptador_de_texto/" target="_blank" class="btn-demo">Ver página</a>                                        
+        <div class="row row-cols-1 row-cols-md-3 g-2 mt-3 mx-auto">
+            <div class="col mt-3">
+                <div class="card">
+                    <img src="/assets/capturas-proyectos/encriptador-de-texto.png" alt="vista previa encriptador">
+                    <div class="card-body">
+                        <h5 class="card-title">Encriptador de texto</h5>
+                        <p class="card-text">HTML, CSS Y JavaScript.</p>
+                        <div class="justify-content-around m-1">
+                            <a class="btn btn-dark" href="https://github.com/joseGuaymas/encriptador_de_texto.git/" target="_blank">Repositorio</a>                    
+                            <a class="btn btn-dark" href="https://joseguaymas.github.io/encriptador_de_texto/" target="_blank">Ver página</a>                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="card">
+                    <img src="/assets/capturas-proyectos/bbad-fetch.png" alt="vista previa fetcher">
+                    <div class="card-body">
+                        <h5 class="card-title">Personajes Breaking Bad</h5>
+                        <p class="card-text">HTML, CSS Y Javascript.</p>
+                        <div class="justify-content-around m-1">
+                            <a class="btn btn-dark" href="https://github.com/joseGuaymas/fetch_personajes_Breaking_Bad.git" target="_blank">Repositorio</a>                    
+                            <a class="btn btn-dark" href="https://joseguaymas.github.io/fetch_personajes_Breaking_Bad/" target="_blank">Ver página</a>                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="card">
+                    <img src="/assets/capturas-proyectos/juego-del-ahorcado.png" class="card-img-top" alt="vista previa ahorcado">
+                    <div class="card-body">
+                        <h5 class="card-title">Juego del Ahorcado</h5>
+                        <p class="card-text">HTML, CSS Y Javascript.</p>
+                        <div class="justify-content-around m-1">
+                            <a class="btn btn-dark" href="https://github.com/joseGuaymas/juego_del_ahorcado.git/" target="_blank">Repositorio</a>                    
+                            <a class="btn btn-dark" href="https://joseguaymas.github.io/juego_del_ahorcado/" target="_blank">Ver página</a>                                        
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card">
-                <img src="/assets/capturas-proyectos/personajesGOT.png" alt="vista previa encriptador"">
-                <div class="card-body">
-                    <h5 class="card-title">Personajes</h5>
-                    <p class="card-text">HTML, CSS Y Javascript.</p>
-                    <div class="justify-content-around">
-                        <a class="btn btn-dark" id="repositiorio-encriptador" href="https://github.com/joseGuaymas/encriptador_de_texto.git/" target="_blank" class="btn-repositorio">Repositorio</a>                    
-                        <a class="btn btn-dark" id="demo-encriptador" href="https://joseguaymas.github.io/encriptador_de_texto/" target="_blank" class="btn-demo">Ver página</a>                                        
-                    </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-            </div>
-            <!-- <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div> 
-            </div>-->
-          </div>
-
-        <!-- <div class="d-flex flex-column bd-highlight mb-3">
-            <div class="p-2 bd-highlight">
-                <div class="caja-img-proyecto">
-                </div>
-                <div class="titulo-proyecto">
-                    <h4>Encriptador de Texto</h4>                
-                    <p>JavaScript</p>
-                </div>
-            </div>
-            
-            <div class="p-2 bd-highlight">
-                <div class="caja-img-proyecto">
-                    </div>
-                <div class="titulo-proyecto">
-                    <h4>Personajes GOT</h4>                
-                    <p>Api REST - JavaScript</p>
-                    <div class="btn-proyecto">
-                        <a id="repositiorio-encriptador" href="https://github.com/joseGuaymas/app_personajesGOT.git" target="_blank" class="btn-repositorio">Repositorio</a>                    
-                        <a id="demo-encriptador" href="https://joseguaymas.github.io/app_personajesGOT/" target="_blank" class="btn-demo">Ver página</a>                                        
-                    </div>
-                </div>
-            </div>
-        </div>
-     -->
     </section>
     
-    <section class="d-flex justify-content-end contenedor">
-        <div class="social-media">
-            <a href=""><img class="icon" src="/assets/iconos/002-github.png"></a>
-            <a href=""><img class="icon" src="/assets/iconos/001-logotipo-de-linkedin.png"></a>
+    <section class="d-flex justify-content-end mt-5 mx-5">
+        <h6 class="h6 mx-2 align-self-sm-center">Copyright Derechos Reservados</h6>
+        <div class="">
+            <a href="https://github.com/joseGuaymas"><img class="" src="/assets/iconos/002-github.png"></a>
+            <a href=""><img class="" src="/assets/iconos/001-logotipo-de-linkedin.png"></a>
         </div>
-        
-        <h4 class="align-self-sm-center">Copyright Derechos reservados</h4>
+    </section>
 
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <!-- <script src="/js/hamburger.js"> </script> -->
 </body>
-
 </html>
