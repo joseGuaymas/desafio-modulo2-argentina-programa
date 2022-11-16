@@ -1,0 +1,86 @@
+@media (min-width: 768px){
+
+    /*** Header ***/
+
+    .links a:last-child{        
+        font-size: 1.6rem;
+    }
+
+    /*** Hero ***/
+    
+    .hero{     
+        flex-direction: row;        
+        justify-content: space-between;        
+    }
+
+    .hero h1{
+        margin: 1rem 0;
+    }
+
+    .hero-texto{
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .hero p,
+    .redes-sociales p,
+    .footer{
+        font-size: 1.6rem;     
+    }
+
+    .redes-sociales{
+        margin: 1rem 0;   
+    }
+
+    .redes-sociales a{
+        margin-right: 2rem;
+    }
+
+    .redes-sociales a img{
+        width: 12px;
+    }
+
+    .hero-imagen img{
+        border-radius: 50%;
+        width: 146px;   
+        padding: 2rem;  
+    }
+    .hero-imagen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*** Skills y Hobbies ***/
+
+    .caja-skills,
+    .caja-hobbies{
+        width: 224px;
+        height: 118px;
+    }
+
+    /*** Formacion ***/
+
+    .caja-formacion{
+        width: 224px;
+        height: 118px;
+    }
+
+    .item-formacion{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*** Experiencia ***/
+
+    .caja-experiencia{
+        width: 704px;    
+        height: auto;    
+    }
+
+    .caja-experiencia .encriptador,
+    .caja-experiencia .ahorcado{
+        width: 704px;    
+        margin: 0 auto;
+    }
+}

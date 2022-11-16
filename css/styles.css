@@ -1,199 +1,73 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
+:root{
+    scroll-behavior: smooth;
+}
+body{
     font-family: 'Karla', sans-serif;
-    background-color:  #f0f3f4;
+    /* background-color:  #1B1A17; */
 }
-
-.header {
-    display: flex;
-    flex-direction: row;
-    height: 88px;
-    width: 90%;
-    top: 5px;
-    padding: 32px 0;
-    margin: auto;
-    justify-content: space-between;
-    gap: 400px;
+.contenedor{
+    max-width: 90%;
+    margin: 1rem auto;
+    padding: 30px 0;
+    overflow: hidden;
 }
-
-.nombre {
-    display: flex;
+.logo{
+    max-height: 200px;
+    max-width: 200px;
 }
-
-.nav-bar {
-    padding: 32px, 0px, 32px, 0px;
-    justify-content: space-between;   
+.header img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
 }
-
-.nav-bar a {
-    /* padding: 0 5px; */
-    text-decoration: none;
-    color: rgb(26, 25, 25);
+.nav a{
+    color: #1B1A17;
     font-size: 18px;
+    font-weight: bold;
     padding: 0 10px;
-}
-
-.inicio {
-    display: flex;
-    flex-direction: row;
-    /* width: 1136px; */
-    justify-content: space-evenly;
-    height: 368px;
-    /* padding: 10px; */
-}
-
-.presentacion {
-    display: flex;
-    flex-direction: column;
-    position: static;
-    /* width: 1136px; */
-    height: 246px;
-    /* left: 0px; */
-    top: 61px;
-    color: #212F3C;
-    padding: 20px 0;
-}   
-
-.presentacion h2 {
-    font-weight: 700;
-    font-size: 40px;
-    color: #515A5A;
-    margin: 10px 0;
-}
-
-.presentacion h3 {
-    font-weight: 400;
-    font-size: 20px;
-    color: #616A6B;
-    margin: 10px 0;
-    /* padding-top: 5px; */
-}
-
-.social-media {
-    display: flex;
-    justify-content: baseline;
-    margin: 10px 0;
-}
-
-.social-media a {
     text-decoration: none;
+}
+.perfil{
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 10%;
+    gap: 3em;
+}
+.perfil div img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.certificado img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+} 
+.skill img{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.social-media{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+.social-media a{
     font-weight: 700;
     font-size: 18px;
-    color: #212121;
     display: flex;
     flex-direction: row;
 }
-
 .icon{
     height: 22px;
     width: 20px;
     margin: 0 20px 0 5px;
 }
-
-.img-personal {
-    width: 30%;
-    height: 50%;
-    padding: 20px;
-}
-
-.img-personal img {
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
-    margin: auto;
-}
-
-.about {
-    text-align: left;
-    padding: 30px;
-    background: #EAF2FD;
-    
-}
-
-.about h2 {
-    font-size: 22px;
-    padding: 15px;
-    margin-left: 132px;
-}
-
-.about p {
-    font-size: 20px;
-    padding: 15px;
-    width: 780px;
-    padding-left: 132px;
-}
-
-.skills-container {
-    display: flex;
-    flex-direction: column;
-    /* margin-top: 32px; */
-}
-
-.skills-titulo {
-    margin-top: 8px;
-    font-size: 25px;
-    text-align: center;
-}
-
-.skills-detalle {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 50px;
-    /* border: solid .5px #2A7AE4; */
-    padding: 20px;
-}
-
-.skill {
-    display: flex;
-    flex-direction: column;
-    background-color: #FFF;
-    align-content: center;
-    text-align: center;
-    padding: 5px;
-    width: 176px;
-    height: 176px;
-}
-
-.skill img {
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
-    align-self: center;
-}
-
-.skill p {
-    margin-top: -20px;
-}
-
-.formacion-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-
-}
-
-.formacion {
-    display: flex;
-    /* flex-direction: row; */
-    /* width: inherit; */
-    flex-wrap: wrap;
-}
-
-.certificado {
-    display: flex;
-    flex-direction: column;
-
-}
-.certificado img {
-    width: 240px;
-    height: 360px;
-    padding: 10px;
-}
-

@@ -1,0 +1,143 @@
+@media (min-width: 1024px){
+
+    /*** Header ***/
+
+    .links{
+        display: flex;        
+        font-weight: 500;
+        justify-content: space-between;          
+    }
+
+    .links a{
+        display: block;
+    }
+
+    .hero h1{
+        font-size: 5.2rem;        
+        margin: 3rem 0;
+    }
+
+    .hero-texto>p{
+        font-size: 2.2rem;        
+    }
+
+    .hero-imagen img{
+        border-radius: 50%;
+        width: 368px;    
+    }
+    
+    .redes-sociales{
+        margin: 3rem 0;   
+    }
+
+    .redes-sociales p{     
+        font-size: 1.6rem;          
+    }
+
+    .redes-sociales a{
+        margin-right: 3rem;        
+    }
+
+    .redes-sociales a img{
+        width: 16px;
+        padding-top: 1px;
+    }
+
+    .redes-sociales a:last-child{
+        margin-right: 0;
+    }
+
+    /*** Sobre mi ***/
+
+    .sobre-mi h2,
+    #skills h2,
+    #hobbies h2,
+    #formacion h2,
+    #experiencia h2,
+    #contacto h2{
+        font-size: 3.2rem;
+    }
+    
+    .sobre-mi p,
+    .texto-formacion p,
+    .texto-experiencia p{
+        font-size: 1.6rem;    
+    }
+
+    /*** Skills y Hobbies ***/
+    
+    .skills,
+    .hobbies{
+        flex-wrap: nowrap;
+    }
+    .caja-skills,
+    .caja-hobbies{
+        width: 176px;
+        height: 174px;
+    }
+    
+    /*** Formacion ***/
+
+    .caja-formacion{
+        width: 368px;
+        height: 286px;
+    }
+
+    .texto-formacion h4,
+    .texto-experiencia h4{
+        font-size: 2.2rem;        
+    }
+
+    .caja-formacion .logo-oracle,
+    .caja-formacion .logo-ispc{
+        width: 250px;
+    }
+
+    .caja-formacion .logo-utn,
+    .caja-formacion .logo-ctc,
+    .caja-formacion .logo-fceco{
+        width: 300px;
+    }
+
+    .caja-formacion .logo-gugler{
+        width: 200px;
+    }
+
+     /*** Experiencia ***/
+
+     .item-experiencia{
+        display: flex;        
+        gap: 1.6rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .reverse {        
+        flex-direction: row-reverse;
+    }
+
+    .texto-experiencia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .boton-repositorio,
+    .boton-demo,
+    .boton-enviar{
+        font-size: 1.6rem;
+    }
+
+    /*** Contacto ***/
+    
+    .contacto {
+        display: flex;
+        justify-content: center;
+        padding-top: 6rem;
+        gap: 1.6rem;
+    }
+
+    .contacto-imagen{
+        display: block;
+        width: 464px;
+    }
+}
